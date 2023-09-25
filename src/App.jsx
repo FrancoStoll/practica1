@@ -6,12 +6,12 @@ import ModalEditar from "./components/ModalEditar";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import React from "react";
-import Header from "./components/header";
+import Header from "./components/Header";
 
 function App() {
   return (
     <BoletaProvider>
-      {/* <Header /> */}
+      <Header />
 
       <div className="text-3xl text-center p-2.5 mb-10">
         <p className="font-bold py-4 ">Crear boleta de compra</p>
